@@ -1,0 +1,25 @@
+header {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  top: 0; 
+  height:40vh;
+  overflow: hidden;
+}
+
+@media only screen and (max-width : 600px) {
+ 
+    h1 {
+      scale: 0.6;
+    }
+  }
+
+  .App {
+    text-align: center;
+    background-repeat: repeat-y;
+    color:aliceblue;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 5px;
+   height:'100vh'
+  }

@@ -1,0 +1,21 @@
+.register-container{
+    width: 30% !important;
+    height: 50% !important;
+    margin-bottom: 1vh;
+}
+
+.form-group{
+    margin: 1vh;
+    width: 90%;
+    float: left;
+}
+
+::-ms-reveal {
+    display: none;}
+
+    /* img {
+   
+        position:absolute;
+        right:12%;
+        top:51%;
+    } */
