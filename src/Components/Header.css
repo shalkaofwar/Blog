@@ -10,7 +10,8 @@ header {
 @media only screen and (max-width : 600px) {
  
     h1 {
-      scale: 0.6;
+      scale: 0.75;
+      padding: 10%;
     }
   }
 
