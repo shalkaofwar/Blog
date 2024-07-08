@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Blog/static/css/main.d26c7afb.css",
-    "main.js": "/Blog/static/js/main.943a5d0a.js",
+    "main.css": "/Blog/static/css/main.fd38ab2a.css",
+    "main.js": "/Blog/static/js/main.a61b7ddf.js",
     "static/js/453.ede2c593.chunk.js": "/Blog/static/js/453.ede2c593.chunk.js",
     "static/media/Background.png": "/Blog/static/media/Background.6d1a61b59a9df72e32a8.png",
     "static/media/Error.png": "/Blog/static/media/Error.07d88cd9b5e1bbcbfa54.png",
@@ -11,15 +11,13 @@
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/Blog/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/Blog/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/Blog/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "static/media/eyeslash.png": "/Blog/static/media/eyeslash.906906398375ccb331f7.png",
-    "static/media/eye.png": "/Blog/static/media/eye.1a5928388eb1fa803526.png",
     "index.html": "/Blog/index.html",
-    "main.d26c7afb.css.map": "/Blog/static/css/main.d26c7afb.css.map",
-    "main.943a5d0a.js.map": "/Blog/static/js/main.943a5d0a.js.map",
+    "main.fd38ab2a.css.map": "/Blog/static/css/main.fd38ab2a.css.map",
+    "main.a61b7ddf.js.map": "/Blog/static/js/main.a61b7ddf.js.map",
     "453.ede2c593.chunk.js.map": "/Blog/static/js/453.ede2c593.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d26c7afb.css",
-    "static/js/main.943a5d0a.js"
+    "static/css/main.fd38ab2a.css",
+    "static/js/main.a61b7ddf.js"
   ]
 }
