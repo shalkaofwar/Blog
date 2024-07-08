@@ -34,7 +34,7 @@ class App extends Component {
     this.state ={
       id: uuidv4(),
       isRegistered: false,
-      boat: "Dhvani",
+      boat: "Dhvani ",
       name: null,
       email: null,
       password: null,
