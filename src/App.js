@@ -139,6 +139,9 @@ render(){
         <Route exact path='/'>
           <Header title="The Voyage of the Chariot" subtitle="A Lively Festival To Remember." image="./Background.png"/>
       <div className='App-body'><Home/></div> </Route>
+      <Route exact path='/Blog'>
+          <Header title="The Voyage of the Chariot" subtitle="A Lively Festival To Remember." image="./Background.png"/>
+      <div className='App-body'><Home/></div> </Route>
       <Route path="/Login"> 
       {this.state.author ? (<Header title="Welcome" subtitle="Get Ready to Learn more about Willowdale Communnity" image="./Error.jpg"/>) : 
       (<Header title="Login" subtitle="Already an existing User" image="./Error.jpg"/>) 
