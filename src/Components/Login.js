@@ -6,7 +6,7 @@ export default function Login(props){
 
 return(
     <div style={{minHeight: "53vh"}}>
-<div className='container card p-3 mt-2 register-container' style={{minHeight: "33vh"}} >
+<div className='container card p-3 mt-2 register-container' style={{minHeight: "33vh", minWidth: "40vh"}} >
 <form onSubmit={props.logging}>
     <div className='form-group'>
 <label htmlFor='email'>Email</label>
