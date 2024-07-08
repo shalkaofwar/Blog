@@ -19,3 +19,22 @@
         right:12%;
         top:51%;
     } */
+
+    .password-section {
+        position: relative;
+     }
+
+     .password-section .fa-eye {
+        position: absolute;
+        top: 76%;
+        right: 8px; /* Adjust this value to control the icon's position */
+        transform: translateY(-50%);
+        cursor: pointer;
+     }
+     .password-section .fa-eye-slash {
+        position: absolute;
+        top: 76%;
+        right: 8px; /* Adjust this value to control the icon's position */
+        transform: translateY(-50%);
+        cursor: pointer;
+     }

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function Login(props){
 
 return(
-    <div style={{minHeight: "53vh"}}>
+    <div style={{minHeight: "53vh", padding:"3%"}}>
 <div className='container card p-3 mt-2 register-container' style={{minHeight: "33vh", minWidth: "40vh"}} >
 <form onSubmit={props.logging}>
     <div className='form-group'>
@@ -13,10 +13,10 @@ return(
 <input type='email' name='email' className='form-control'/>
 </div>
 <div className='form-group'>
+<div class=" password-section"> 
 <label htmlFor='password'>Password</label> 
-<div className='wrapper'>
-<input type={props.showPassword ? "text" : "password"} style={{ paddingRight:"2%", float:"left"}} name='password' className='form-control'/>
-<img src={props.showPassword ? (require("./eyeslash.png")) : (require("./eye.png")) }  onClick={props.ShowHide} id="eye" alt="description of" style={{ width:"16px", height:"12px", position:'absolute', marginLeft:"-4%", marginTop:"3%"}}></img>
+<input type={props.showPassword ? "text" : "password"} name='password' className='form-control'/>
+<span class={props.showPassword ?"fa fa-eye-slash":"fa fa-eye"} id="togglePassword" onClick={props.ShowHide}></span>
 </div>
 </div>
 <div className='form-group'>

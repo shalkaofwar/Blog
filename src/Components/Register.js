@@ -16,21 +16,23 @@ return(
 </div>
 {/* Password item */}
 <div className='form-group'>
+
+<div class=" password-section"> 
 <label htmlFor='password'>Password</label> 
-<div className='wrapper'>
-<input type={props.showPassword ? "text" : "password"} style={{ paddingRight:"2%", float:"left"}} name='password' className='form-control'/>
-<img src={props.showPassword ? (require("./eyeslash.png")) : (require("./eye.png")) }  onClick={props.ShowHide} id="eye" alt="description of" style={{ width:"16px", height:"12px", position:'absolute', marginLeft:"-4%", marginTop:"3%"}}></img>
+<input type={props.showPassword ? "text" : "password"} name='password' className='form-control'/>
+<span class={props.showPassword ?"fa fa-eye-slash":"fa fa-eye"} id="togglePassword" onClick={props.ShowHide}></span>
 </div>
 </div>
 
 <div className='form-group'>
-<label htmlFor='password'> Confirm Password</label> 
-<div className='wrapper'>
-<input type={props.confirmPass ? "text" : "password"} style={{ paddingRight:"2%", float:"left"}} name='confirmpassword' className='form-control'/>
-<img src={props.confirmPass ? (require("./eyeslash.png")) : (require("./eye.png")) }  onClick={props.ConfirmHide} id="eyetwo" alt="description of" style={{ width:"16px", height:"12px", position:'absolute', marginLeft:"-4%", marginTop:"3%"}}></img>
+<div class=" password-section"> 
+<label htmlFor='password'>Password</label> 
+<input type={props.confirmPass ? "text" : "password"} name='password' className='form-control'/>
+<span class={props.confirmPass ?"fa fa-eye-slash":"fa fa-eye"} id="togglePassword" onClick={props.ConfirmHide}></span>
+</div>
 </div>
 <i style={{color:"red"}}>{props.message}</i>
-</div>
+
 
 <div className='form-group'>
 <button type='submit' className='btn btn-primary' style={{margin: "2vh"}}>Register</button>
