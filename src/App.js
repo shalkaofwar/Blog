@@ -135,7 +135,7 @@ render(){
         <Switch>
           <Route exact path ='/about'>
           <Header title="About Us" subtitle="Get To Know More." image="./About.png"/>
-          <About/> </Route>
+          <div className='App-body'> <About/></div> </Route>
         <Route exact path='/'>
           <Header title="The Voyage of the Chariot" subtitle="A Lively Festival To Remember." image="./Background.png"/>
       <div className='App-body'><Home/></div> </Route>
