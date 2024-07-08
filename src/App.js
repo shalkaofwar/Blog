@@ -155,7 +155,7 @@ render(){
         :  (<Register message={this.state.message} submit={this.registrationHandler} showPassword={this.state.showPassword} ShowHide={this.ShowHide} ConfirmHide={this.ConfirmHide} confirmPass={this.state.confirmPass}/>)
     }
       </Route>
-      <Route path="*"> <Header title="Error 404" subtitle="There are no error pages in Willowdale." image="./Error.jpg"/></Route>
+      <Route path="*"> <Header title="Error 404" subtitle="There is no error in Willowdale." image="./Error.jpg"/></Route>
       </Switch>
       <Footer/>
       </div>
