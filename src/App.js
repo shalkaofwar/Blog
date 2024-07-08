@@ -150,7 +150,7 @@ render(){
       (<Login lmessage={this.state.lmessage} logging={this.LoginHandler} showPassword={this.state.showPassword} ShowHide={this.ShowHide}/>) }
       </Route>
       <Route path="/Register"> 
-      <Header title="Register" subtitle="Join the Willowdale Community and enter a blissful world" image="./About.png"/>
+      <Header title="Register" subtitle="Join the Willowdale Community" image="./About.png"/>
       {this.state.isRegistered ?(<Greet user={this.state.name}/>)
         :  (<Register message={this.state.message} submit={this.registrationHandler} showPassword={this.state.showPassword} ShowHide={this.ShowHide} ConfirmHide={this.ConfirmHide} confirmPass={this.state.confirmPass}/>)
     }
