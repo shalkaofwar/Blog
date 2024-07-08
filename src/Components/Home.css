@@ -3,9 +3,11 @@ h3{ font-family: "Papyrus"
 
 }
 
+
+
 @media only screen and (max-width : 900px) {
        h3{
-        scale: 0.8;
+        scale: 0.9;
        } 
     }
 

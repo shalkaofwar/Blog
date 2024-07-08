@@ -1,8 +1,7 @@
 import React from 'react';
-import './Home.css';
-
 export default function Home(){
 return(
+
     <div className='container-fluid' style={{backgroundColor:'white', padding: "1%",
         color: "#282c34",
         textAlign: "justify",
@@ -20,6 +19,5 @@ return(
     <br></br>
     The Luminaria Spectacle is an otherworldly celebration that redefines the boundaries between nature, art, and magic.</h3>  
  </div>
- 
 )
 }

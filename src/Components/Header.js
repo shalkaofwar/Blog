@@ -3,11 +3,11 @@ import './Header.css';
 export default function header(props){
     var myStyle;
     if(props.image==="./About.png"){
-    myStyle = {backgroundImage: `url(${require("./About.jpg")})`, backgroundSize: "100%", minHeight: "100%"};}
+    myStyle = {backgroundImage: `url(${require("./About.jpg")})`, backgroundSize: "cover", minHeight: "100%", backgroundRepeat: 'no-repeat'};}
     else if(props.image==="./Background.png"){
-    myStyle = {backgroundImage: `url(${require("./Background.png")})`, backgroundSize: "100%", minHeight: "100%"};}
+    myStyle = {backgroundImage: `url(${require("./Background.png")})`, backgroundSize: "cover", minHeight: "100%", backgroundRepeat: 'no-repeat'};}
     else if(props.image==="./Error.jpg"){
-        myStyle = {backgroundImage: `url(${require("./Error.png")})`, backgroundSize: "100%", minHeight: "100%"};}
+        myStyle = {backgroundImage: `url(${require("./Error.png")})`, backgroundSize: "cover", minHeight: "100%", backgroundRepeat: 'no-repeat'};}
     
     return(
         <header className="masthead" style={myStyle} >
