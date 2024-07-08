@@ -12,7 +12,7 @@ import { v4 as uuidv4 } from 'uuid';
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import { Component } from 'react'
 
 const firebaseConfig = {
