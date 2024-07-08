@@ -11,7 +11,7 @@ export default function footer(){
                     <div className="col-md-10 col-lg-8 col-xl-7">
                         <center>
                         <ul className="list-inline text-center" style={{margin:"auto", position:"absolute", left:0, right:0,}}>
-                            <li className="list-inline-item">
+                            {/* <li className="list-inline-item">
                                 <a href="#!">
                                     <span className="fa-stack fa-lg">
                                         <i className="fa fa-circle fa-stack-2x"></i>
@@ -26,9 +26,9 @@ export default function footer(){
                                         <i className="fa fa-facebook-f fa-stack-1x fa-inverse"></i>
                                     </span>
                                 </a>
-                            </li>
+                            </li> */}
                             <li className="list-inline-item">
-                                <a href="#!">
+                                <a href="https://github.com/shalkaofwar/Blog">
                                     <span className="fa-stack fa-lg">
                                         <i className="fa fa-circle fa-stack-2x"></i>
                                         <i className="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -41,7 +41,7 @@ export default function footer(){
                     </div>
                 </div>
             </div>
-            <div className="small text-muted fst-italic" style={{position:"absoloute", textAlign: 'left'}}>Copyright &copy; Your Website 2023</div>
+            {/* <div className="small text-muted fst-italic" style={{position:"absoloute", textAlign: 'left'}}>Copyright &copy; Your Website 2023</div> */}
         </footer>
 
 
