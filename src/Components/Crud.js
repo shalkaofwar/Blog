@@ -76,7 +76,7 @@ return(
         <div className="col-sm-2">
         <div className="form-group row">
         <label htmlFor="Price">Price</label>
-        <input type="text" onChange={HandleChanges} className="form-control" name="Price" id="Price" placeholder="Enter" value={Price}/>
+        <input type="number" onChange={HandleChanges} className="form-control" name="Price" id="Price" placeholder="Enter" value={Price}/>
         </div>
         </div>
 
