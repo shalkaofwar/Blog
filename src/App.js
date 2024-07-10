@@ -12,8 +12,10 @@ import { v4 as uuidv4 } from 'uuid';
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
+import Crud from './Components/Crud';
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import { Component } from 'react'
+
 
 const firebaseConfig = {
   apiKey: "AIzaSyDJiwTxRhu-p38-Jnk0wLFbWsLwBtRYiSM",
@@ -114,6 +116,10 @@ registrationHandler = (event) => {
     return;
   }
 
+  NothingHandler = () =>{
+    return;
+  }
+
 render(){
 // let x=10, y=11;
 //   let ala = new Promise((resolve, reject) => {
@@ -131,7 +137,7 @@ render(){
   return (
       <Router>
         <div>
-        <Navbar login={this.LoginHandler} logout={this.LogoutHandler} status={this.state.author}/>
+        <Navbar login={this.LoginHandler} logout={this.LogoutHandler} nothing={this.NothingHandler} status={this.state.author}/>
         <Switch>
           <Route exact path ='/about'>
           <Header title="About Us" subtitle="Get To Know More." image="./About.png"/>
@@ -155,7 +161,10 @@ render(){
         :  (<Register message={this.state.message} submit={this.registrationHandler} showPassword={this.state.showPassword} ShowHide={this.ShowHide} ConfirmHide={this.ConfirmHide} confirmPass={this.state.confirmPass}/>)
     }
       </Route>
-      <Route path="*"> <Header title="Error 404" subtitle="There is no error in Willowdale." image="./Error.jpg"/></Route>
+      <Route path="/Table"> <Header title="Sales" subtitle="Comic Sale in Willowdale." image="./Error.jpg"/><div className='App-body'><Crud/></div></Route>
+      <Route path="*"> <Header title="Error 404" subtitle="There is no error in Willowdale." image="./Background.png"/>
+      
+      </Route>
       </Switch>
       <Footer/>
       </div>

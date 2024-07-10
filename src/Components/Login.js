@@ -13,10 +13,10 @@ return(
 <input type='email' name='email' className='form-control'/>
 </div>
 <div className='form-group'>
-<div class=" password-section"> 
+<div className=" password-section"> 
 <label htmlFor='password'>Password</label> 
 <input type={props.showPassword ? "text" : "password"} name='password' className='form-control'/>
-<span class={props.showPassword ?"fa fa-eye-slash":"fa fa-eye"} id="togglePassword" onClick={props.ShowHide}></span>
+<span className={props.showPassword ?"fa fa-eye-slash":"fa fa-eye"} id="togglePassword" onClick={props.ShowHide}></span>
 </div>
 </div>
 <div className='form-group'>
