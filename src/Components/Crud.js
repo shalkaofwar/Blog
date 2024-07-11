@@ -27,7 +27,7 @@ const[UpdateID, setUpdateID] =useState(-1);
 
             axios({
                 method: 'post',
-                url: 'http://willowdale.runasp.net/heroes',
+                url: 'https://willowdale.runasp.net/heroes',
                 data: FormData,
                 headers: {'Content-Type': 'application/json' }
             })
@@ -62,13 +62,13 @@ const[UpdateID, setUpdateID] =useState(-1);
     }
 
     const deleteHandler = (deleteID) => {
-        axios.delete(`http://willowdale.runasp.net/heroes/${deleteID}`)
+        axios.delete(`https://willowdale.runasp.net/heroes/${deleteID}`)
         .then(res=> {setFormData(res.data)})
         .catch(error=>console.log(error));
     }
 
     const updateHandler = (editID) =>{
-        axios.get(`http://willowdale.runasp.net/heroes/${editID}`)
+        axios.get(`https://willowdale.runasp.net/heroes/${editID}`)
         .then(res=> {setFormData(res.data)})
         .catch(error=>console.log(error));
 
@@ -78,7 +78,7 @@ const[UpdateID, setUpdateID] =useState(-1);
     }
 
     const updateButtonHandler = (Update) =>{
-        axios.put(`http://willowdale.runasp.net/heroes/${Update}`,FormData)
+        axios.put(`https://willowdale.runasp.net/heroes/${Update}`,FormData)
         .then(res=> {setFormData({
             name: "",
             genreId: "",
@@ -91,7 +91,7 @@ const[UpdateID, setUpdateID] =useState(-1);
     }
 
     useEffect(()=> {
-        axios.get("http://willowdale.runasp.net/heroes/")
+        axios.get("https://willowdale.runasp.net/heroes/")
         .then(res=>setData(res.data))
         .catch(error=>console.log(error))
     })
