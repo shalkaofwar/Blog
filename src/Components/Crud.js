@@ -91,7 +91,7 @@ const[UpdateID, setUpdateID] =useState(-1);
     }
 
     useEffect(()=> {
-        axios.get("http://willowdale.runasp.net/heroes")
+        axios.get("http://willowdale.runasp.net/heroes/")
         .then(res=>setData(res.data))
         .catch(error=>console.log(error))
     })
