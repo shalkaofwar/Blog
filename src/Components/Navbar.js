@@ -15,7 +15,7 @@ return(
                     <ul className="navbar-nav ms-auto py-1 py-lg-1">
                         <li className="nav-item"><Link className="nav-link px-lg-3 px-sm-1 py-2 py-lg-1" to="/">Home</Link></li>
                         <li className="nav-item"><Link className="nav-link px-lg-3 px-sm-1 py-2 py-lg-1" to="/about">About</Link></li>
-                        <li className="nav-item"><Link className="nav-link px-lg-3 px-sm-1 py-2 py-lg-1" to="/Table">Sales Data</Link></li>
+                        <li className="nav-item"><Link className="nav-link px-lg-3 px-sm-1 py-2 py-lg-1" to="/Table">Comics</Link></li>
                         <li className="nav-item"><Link className="nav-link px-lg-3 px-sm-1 py-2 py-lg-1" onClick={props.status ? props.logout : props.nothing} to={props.status ? "#" :"/login"}>{props.status ? "Logout":"Login"}</Link></li>
                     </ul>
                 </div>
